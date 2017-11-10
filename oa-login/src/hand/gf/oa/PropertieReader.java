@@ -25,7 +25,7 @@ public class PropertieReader {
 			// 加载属性
 			prop.load(in);
 		
-			LoginUrl = prop.getProperty("login.LoginUrl");
+			LoginUrl = prop.getProperty("login.url");
 			in.close();
 		} catch (Exception e) {
 			System.out.println("读取配置文件异常" + e);
