@@ -30,15 +30,6 @@ public class SynUserFromOa {
 					.type(MediaType.APPLICATION_XML_TYPE)
 					.accept(MediaType.APPLICATION_XML)
 					.get(ClientResponse.class);
-//			GfUserDataListRestfulResult erprs = response
-//					.getEntity(GfUserDataListRestfulResult.class);
-//			System.out.println("CALL Result:" + erprs.isSuccess());
-//			System.out.println("CALL Result Msg:" + erprs.getMsg());
-//			if (erprs.getRet() != null) {
-//				for (GfUser o : erprs.getRet()) {
-//					System.out.println(o.getLoginid());
-//				}
-//			}
 			//将结果转换成String
 			String result = response.getEntity(String.class);
 			XMLSerializer xmlSerializer = new XMLSerializer();
