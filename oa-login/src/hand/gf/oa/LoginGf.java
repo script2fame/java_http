@@ -1,5 +1,6 @@
 package hand.gf.oa;
 /**
+ * java使用post方式实现用户登录
  * created by hungteshun 
  * 
  **/

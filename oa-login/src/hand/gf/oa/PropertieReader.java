@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class PropertieReader {
 
-	private static String LoginUrl;         //广发oa登录接口调用的地址
+	private static String LoginUrl;
 
 	public static String getLoginUrl() {
 		if(LoginUrl == null)
