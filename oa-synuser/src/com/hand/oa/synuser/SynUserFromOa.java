@@ -1,5 +1,11 @@
 package com.hand.oa.synuser;
 
+/**
+ * java使用client客户端请求的方式访问后台服务器获取数据
+ * created by hungteshun 
+ * 
+ **/
+
 import javax.ws.rs.core.MediaType;
 
 import net.sf.json.JSON;
@@ -12,6 +18,7 @@ import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
+
 
 public class SynUserFromOa {
 
